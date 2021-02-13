@@ -1,0 +1,22 @@
+Component has saveral" lifecycle methods" that you can override to run code at at  perticular time in process
+
+https://www.w3schools.com/react/react_lifecycle.asp
+
+
+         **LIFECYCLE OF COMPONENT**
+Each component in react has lifecyle which you can monitor and manipulate during its three main phases
+
+1)Mounting  2)Updating 3)Unmounting
+
+
+
+1)## ~MOUNTING~ ##
+
+=>putting element into the DOM
+ 
+React has four built-in methods that gets called, in this order, when mounting a component:
+
+a) constructor()
+b) getDerivedStateFromProps()
+c) render()
+d) componentDidMount()
